@@ -50,7 +50,7 @@ arrayFyst = Array(int(number))
 print(arrayFyst)
 
 numberX = NumEnter(1, input('Введите целое положительное \
-число от 1-го \n чтобы посчитать сколько раз оно повтаряется: '))[1]
+число от 0 \n чтобы посчитать сколько раз оно повтаряется: '))[1]
 if FindNumberX(arrayFyst, int(numberX)) == 0:
     print(f'Числа {numberX} нет в массиве')
 else:
